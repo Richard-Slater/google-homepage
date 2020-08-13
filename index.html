@@ -1,0 +1,140 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial;
+        font-size: 13px;
+    }
+
+    #bottom-left-links {
+        float: left;
+        padding-left: 20px;
+    }
+    #bottom-right-links {
+        float: right;
+        padding-right: 20px;
+    }
+    #UK {
+        padding-left: 20px;
+        border-bottom: 1px solid #f2f2;
+    }
+ 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+        line-height: 40px;
+        border: 1px solid #f2f2;
+        color: #000;
+        opacity: .75;
+    }
+
+    .footer a {
+        padding: 10px;
+    }
+    .topnav {
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding-left: 16px;
+  padding-top:15px;
+  text-decoration: none;
+  font-size: 13px;
+  opacity: .75;
+}
+
+.google-image {
+    padding-top: 109px;
+    margin:auto;
+    text-align: center;
+}
+.searchbox {
+    text-align: center;
+    border-radius: 20px;
+    height: 34px;
+    flex: 100%;
+    border-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    }
+.button {
+    text-align: center;
+    padding-top: 20px;
+}
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 4px;
+    margin: 11px 4px;
+}
+input {
+    width: 400px;
+}
+.sign-in {
+    background-color: blue;
+    color: white;
+    margin-top: 7px;
+    font-size: 13px;
+    height: 30px;
+}
+   </style>
+</head>
+<!--Seperates head and body-->
+
+<body>
+    <div class="topnav">
+        <i class="fas fa-th"></i>
+        <i class="fas fa-camera"></i>
+        <button style="float: inline-end;" class="sign-in">Sign in</button>
+        <a style="float: left;" href="#About">About</a>
+        <a style="float: left;" href="#Store">Store</a>
+        <a style="float: right;" href="#Images">Images</a>
+        <a style="float: right;"href="#Gmail">Gmail</a>
+    </div>
+       
+      <div class="google-image">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image">
+      </div>
+
+      <div class="searchbox" id="searchbox">
+          <input class="searchbox" type="text">
+      </div>
+
+      <div class="button" id="buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+      </div>
+
+
+<!--Seperates body and footer-->
+    <footer class=footer>
+<div class="user-location" id="UK">
+    <a href="#">United Kingdom</a>
+</div>
+<div class="bottom-links" id="bottom-left-links">
+    <a href="#">Advertising</a>
+    <a href="#">Business</a>
+    <a href="#">How Search Works</a>
+</div>
+
+<div class="bottom-links" id="bottom-right-links">
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Settings</a>
+</div>
+    </footer>
+</body>
+
